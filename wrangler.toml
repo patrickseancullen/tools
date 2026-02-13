@@ -1,2 +1,8 @@
+# wrangler.toml at repo root
+name = "tools"
+type = "javascript"
+account_id = "YOUR_CF_ACCOUNT_ID"
+workers_dev = true
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
